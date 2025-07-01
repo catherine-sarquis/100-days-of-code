@@ -18,7 +18,7 @@ A template for a new entry is provided below:
 
 ```html
 <div class="log-entry">
-  <h2>Day X <span class="date">- Month Day, Year</span></h2>
+  <h2>Day X <span class="date">- Day Month, Year</span></h2>
   <div class="progress">
     <h3>Today's Progress:</h3>
     <p>A brief description of what you worked on and the progress you made.</p>
