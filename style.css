@@ -93,6 +93,10 @@ header h1 {
   border: 2px solid var(--border-color);
 }
 
+.remove-bullets {
+  list-style-type: none;
+}
+
 footer {
   text-align: center;
   margin-top: 40px;
