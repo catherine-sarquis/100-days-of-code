@@ -4,7 +4,7 @@ This repository serves as my personal log for the #100DaysOfCode challenge. It's
 
 As part of this challenge, I aim to:  
 ⬜ complete the SheCodes Bootcamp course  
-⬜ complete Boot.dev 'Learn to Code in Python'
+✅ complete Boot.dev 'Learn to Code in Python'
 
 ## About the Project
 
