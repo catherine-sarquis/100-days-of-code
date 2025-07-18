@@ -288,6 +288,53 @@
       </div>
     </div>
 
+    <div class="log-entry">
+      <h2>Day 20 <span class="date">- 18 July, 2025</span></h2>
+      <div class="progress">
+        <h3>Today's Progress:</h3>
+        <p>Fit in some boot.dev and logging it before work because I feel like I'm going to finish late. One thing that
+          I questioned is when instance variables should be declared. I'll put what Boots advised me here as it will be
+          useful for me to refer back to (this is based on the code captured in the below image)</p>
+        <h4>Instance Variables vs. Local Parameters</h4>
+
+
+
+        <h5>Understanding the Differences</h5>
+
+        <ul>
+          <li><strong>Instance variables</strong> (like <code>self.target</code>) persist after the method finishes and
+            can be
+            accessed by other methods. They belong to the object itself.</li>
+          <li><strong>Parameters</strong> (like <code>target</code>) only exist during the execution of that specific
+            method
+            call. They are temporary placeholders for values passed into a method.</li>
+        </ul>
+
+
+
+        <h4>When Should You Store Parameters as Instance Variables?</h4>
+
+        <p>Only when you need to remember that information for later use in other methods.</p>
+
+
+        <p>Consider the example of casting a fireball:</p>
+        <ul>
+          <li>You <strong>don't need</strong> to remember who the target was after the fireball is cast.</li>
+          <li>You <strong>don't need</strong> to remember the cost or damage values after the method completes.</li>
+          <li>The fireball casting is a one-time action that happens and then it's done.</li>
+        </ul>
+        <p>In this scenario, storing <code>target</code>, <code>cost</code>, or <code>damage</code> as instance
+          variables
+          would be unnecessary, as their values are only relevant for the duration of the <code>fireball</code> casting
+          method.</p>
+
+
+        <img src="src/img/day-20.png"
+          alt="A screenshot showing differences between my code and the suggested solution" />
+
+      </div>
+    </div>
+
 
   </main>
 
