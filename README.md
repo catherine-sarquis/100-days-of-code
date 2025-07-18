@@ -12,7 +12,7 @@ This log is designed in a clean, easy-to-read neu-brutalist style, inspired by t
 
 ## How to Use
 
-To start your own log, simply fork this repository and edit the `index.html` file. Each day, you will add a new `.log-entry` div to document your progress.
+To start your own log, simply clone this repository and edit the `index.html` file. Each day, you will add a new `.log-entry` div to document your progress.
 
 A template for a new entry is provided below:
 
