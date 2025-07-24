@@ -414,6 +414,43 @@
       </div>
     </div>
 
+    <div class="log-entry">
+      <h2>Day 26 <span class="date">- 24 July, 2025</span></h2>
+      <div class="progress">
+        <h3>Today's Progress:</h3>
+        <p>
+          I used <code>git-filter-repo</code> [using pip install via a codespace] to remove the 'Storyline Portfolio/'
+          and 'assets/' folders from my entire
+          commit history. Here are the main commands I used in sequence:
+        </p>
+        <p><strong>1. Rewrite History:</strong></p>
+        <pre><code>git filter-repo --path 'Storyline Portfolio/' --path 'assets/' --invert-paths --force</code></pre>
+
+        <p><strong>2. Finalise Deletion:</strong></p>
+        <pre><code>git gc --prune=now --aggressive</code></pre>
+
+        <p><strong>3. Update GitHub:</strong></p>
+        <pre><code>git remote add origin &lt;your-repo-url&gt;
+            git push origin --force --all</code></pre>
+        <p>
+          After the process, I ran <code>git count-objects -vH</code> to check the size again. Voila! The repo had
+          shrunk to
+          a tiny 256 KiB. Then, I made a fresh clone of the repo and continued working as normal from the new clone.
+        </p>
+        <h3>Thoughts:</h3>
+        <p>
+          After a lesson on boot.dev, I realised my Git history was full of old, heavy portfolio files. I worried they
+          were
+          bloating my web hosting deployments, so I decided to clean up. My repo was about 15 MiB – big enough to
+          call in
+          the Men in Black? The funny thing is, I now realise this wouldn't have affected my hosting
+          limits. Website deployments only use files from your most recent commit, completely ignoring the
+          <code>.git</code>
+          history folder!
+        </p>
+      </div>
+    </div>
+
   </main>
 
   <footer class="container">
