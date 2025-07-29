@@ -501,6 +501,26 @@
       </div>
     </div>
 
+    <div class="log-entry">
+      <h2>Day 31 <span class="date">- 29 July, 2025</span></h2>
+      <div class="progress">
+        <h3>Today's Progress:</h3>
+        <p>Worked through a couple of Boot.dev lessons: I found it interesting learning a bit about javascript
+          prototypes - basically, every JS object has a prototype, each leading up a chain to the root Object whose
+          prototype is null.<br><br>
+          Objects store references to their prototypes, not actual copies of their properties.<br><br>
+          When accessing a property, JS first checks the object itself, then walks up its prototype chain until it fincs
+          the property or reaches null.<br><br>
+          Object.create() creates a new object with the specified prototype - establishing the prototype relationship
+          (not copying properties as mentioned) <br><br>
+          Object.getPrototypeOf() returns the prototype of an object - providing a way to inspect the prototype
+          chain.<br><br>
+          These appear to be the foundations of JavaScript's object system, I've added these points to my list of things
+          to go back to better understand how and why they're used.
+        </p>
+      </div>
+    </div>
+
   </main>
 
   <footer class="container">
