@@ -749,6 +749,25 @@
       </div>
     </div>
 
+    <div class="log-entry">
+      <h2>Day 46 <span class="date">- 17 August, 2025</span></h2>
+      <div class="progress">
+        <h3>Today's Progress:</h3>
+        <p>Back refreshed this morning, I started the JS from
+          scratch, and added a language selector to the html. I could retrive the user selection, but when I got to
+          fetching the json - all the error messages started appearing again. Obviously there was something I didn't
+          understand about this async function stuff. But what? <br><br>
+          After searching online through maaaany examples, I realised I needed to await the response - not only
+          the fetch! So the fetch gets the promise, but then I need to await the response for the json to be parsed,
+          because JS can't read or understand the json.<br><br>
+          So now, a language can be selected, and if one is selected, then it will display just the word for rabbit in
+          that language.
+        </p>
+        <img src="src/gif/day-46.gif" alt="language selector for flashcard">
+      </div>
+    </div>
+
+
 
   </main>
 
