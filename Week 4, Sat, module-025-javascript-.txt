@@ -1,8 +1,8 @@
 ✅ Week 4, Sat, module-025-javascript-basics, practice: javascript-basics-start
 ✅ Week 4, Sat, module-026-control-flow-operators, practice: operators-conrol-flow-start
 ✅ Week 4, Sun, js-debugger-basics (need to learn to practice this)
-Week 5, Sat, module 031 - arrow functions higher order: guided practice
-Week 5, Sat, module 032 - arrays, array methods: guided practice
+✅ Week 5, Sat, module 031 - arrow functions higher order: guided practice
+✅ Week 5, Sat, module 032 - arrays, array methods: guided practice
 Week 5, Sat, module 033 - guided practice
 Week 5, Sat, module 034 - guided practice
 Week 5, Sun, module 035 - cat mood tracker practice
